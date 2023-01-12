@@ -1,5 +1,5 @@
 
-# Belly Button Bio Diversity
+# Belly Button Bio-Diversity
 
 ## Objective
 
