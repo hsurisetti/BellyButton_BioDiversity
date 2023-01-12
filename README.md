@@ -38,7 +38,7 @@ The project has been deployed to : https://hsurisetti.github.io/BellyButton_BioD
 ## Bacterial Cultures per sample
 
   The bacterial cultures per sample is displayed as a bubble chart based of Volunteer ID which will display the bubbles based of otu ids and sample values as x and y axis respectively.
- <img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/BubbleChart.png" width=400 />
+ <img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/BubbleChart.png" width=500 />
 
 ## Customize Dashboard
   
