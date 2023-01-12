@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center hero">
+        <h1 id="dashboard_title">Belly Button Biodiversity Dashboard</h1>
+        <p id="dashboard_p">Use the interactive charts below to explore the dataset.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-md-5 ">
+          <div id="bar"></div>
+          <p align="justify">This horizontal barchart shows the top 10 Bacterial species,
+            as OTUs, based on the Test Subject ID selected from the dropdown menu.
+          </p>
+        </div>
+        <div class="col-md-5 ">
+          <div id="gauge"></div>
+          <p align="justify">This is called a "Gauge Chart", also known as speedometer chart.
+            The value is shown as an indicator on the chart.
+
+            It is used here to display the individual's washing frequency
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div id="bubble"></div>
+        </div>
+        <p align="justify">
+          This is a bubble Chart which is used to display the bacterial cultures per sample here.
+          The diameter of the bubble represents the amount of each OTU ID present in the sample.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p align="justify">For further information about Belly Button biodiversity, you can refer here :
+       <a href="http://robdunnlab.com/projects/belly-button-biodiversity/">Belly Button Biodiversity</a>
+      </p>
+    </footer>
+    <hr>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>

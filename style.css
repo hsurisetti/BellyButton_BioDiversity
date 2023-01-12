@@ -1,0 +1,60 @@
+
+body {
+    background-color:#F4F6F6;
+}
+
+.hero {
+    position: relative;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    background: black;
+    background-image: url(bac1.jpg);
+    background-attachment: fixed;
+    background-position: bottom-center;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+
+#dashboard_title {
+    margin-top: 0px; 
+    color: #b39a36;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-shadow: 4px 6px 5px #283747;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+.bar {
+    height: 200px;
+    width: 100px;
+    margin: 0 auto; 
+ }
+ 
+ .gauge {
+     height: 200px;
+     width: 100px;
+     margin: 0 auto; 
+  }
+ 
+ .bubble {
+     height: 800px;
+     width: 600px;
+     margin: 0 auto; 
+     color-scheme: dark;
+ }
+
+
+#dashboard_p {
+    margin-top: 18px;
+    color: white;
+    letter-spacing: 2.8px;
+    word-spacing: 7px;
+    text-shadow: 5px 7px 12px #b39a36;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
