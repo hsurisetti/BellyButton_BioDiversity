@@ -5,7 +5,7 @@
 
  The objective of the project is to create an interactive dashboaard to visualize the bacteria data of each volunteer and display the respective demographic information and identify the top 10 bacterial species in their belly buttons. Based on this information,  we would be able to identify what species are found which could help in the making of Improbable Beef.
 
-## This project also demonstrates the below capabilities
+## This project demonstrates 
     
   - Make Data Visualization possible through providing interactive charts which are more accessible and also provide the ability to customize it.
   - Manilpulate , parse and transform the data in JSON format.
