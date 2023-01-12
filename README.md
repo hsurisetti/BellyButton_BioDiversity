@@ -20,20 +20,25 @@ The project has been deployed to : https://hsurisetti.github.io/BellyButton_BioD
 ## Demographic Information 
  The Demographic information is displayed in the left , with the default volunteer pre-selected. When the user selects a new volunteer ID(Test Subject ID) the demographic information of that volunteer is displayed.
 
+  <img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/DemographicInfo.png" width=100 />
+
 ## Top 10 Bacterial Species
    
   The horizontal bar chart has been created to display the top 10 bacterial species which will display the sample values and their corresponding labels along with the hover information when the volunterr ID is selected from the dropdown menu
   The image has been generated with the help of plotly function to trace the object with layout.
 
-    Image : TODO
+ <img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/BarChart.png" width=400 />
 
 ## Belly Button Washing Frequency
 
   A Guage Chart has been generated to demonstrate Belly button washing frequency upon selection of Volunteer ID. Volunteer's weekly washing frequnecy is displayed as a measure from 0-10.
 
+<img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/GaugeChart.png" width=400 />
+
 ## Bacterial Cultures per sample
 
   The bacterial cultures per sample is displayed as a bubble chart based of Volunteer ID which will display the bubbles based of otu ids and sample values as x and y axis respectively.
+ <img src="https://github.com/hsurisetti/BellyButton_BioDiversity/blob/main/screenshots/BubbleChart.png" width=400 />
 
 ## Customize Dashboard
   
